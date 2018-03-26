@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.inthebeginningdesigns.harrypotterquiz.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:background="#b71c1c">
+
+       <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#000000"
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            android:textSize="25sp"
+           android:paddingTop="15dp"
+
+            android:text="How well do you
+            know Harry Potter?"
+            />
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@drawable/castle"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000"/>
+       </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="40dp"
+    android:textStyle="bold"
+    android:textSize="20sp"
+    android:fontFamily="serif"
+    android:text="Peruse through the following questions to see if you know the Harry Potter story as well as you think.
+Are you are true Harry Potter fan??
+
+
+Let's find out..."
+    android:textAlignment="center"/>
+    </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_gravity="bottom">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Start"
+            android:textSize="24sp"
+            android:id="@+id/start"
+            android:fontFamily="cursive"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_marginTop="135dp"
+            android:background="#b71c1c"
+            />
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

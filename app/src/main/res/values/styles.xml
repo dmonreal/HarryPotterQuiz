@@ -1,0 +1,12 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#b71c1c</item>
+        <item name="colorPrimaryDark">@android:color/black</item>
+        <item name="colorAccent">#ffa000</item>
+        <item name="android:colorBackground">@android:color/darker_gray</item>
+    </style>
+
+</resources>
